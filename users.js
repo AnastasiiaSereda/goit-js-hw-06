@@ -1,86 +1,232 @@
 export default [
-    {
-      id: '701b29c3-b35d-4cf1-a5f6-8b12b29a5081',
-      name: 'Moore Hensley',
-      email: 'moorehensley@indexia.com',
-      eyeColor: 'blue',
-      friends: ['Sharron Pace'],
-      isActive: false,
-      balance: 2811,
-      skills: ['ipsum', 'lorem'],
-      gender: 'male',
-      age: 37,
+  {
+    id: 1,
+    name: "Leanne Graham",
+    username: "Bret",
+    email: "Sincere@april.biz",
+    address: {
+      street: "Kulas Light",
+      suite: "Apt. 556",
+      city: "Gwenborough",
+      zipcode: "92998-3874",
+      geo: {
+        lat: "-37.3159",
+        lng: "81.1496"
+      }
     },
-    {
-      id: '7a3cbd18-57a1-4534-8e12-1caad921bda1',
-      name: 'Sharlene Bush',
-      email: 'sharlenebush@tubesys.com',
-      eyeColor: 'blue',
-      friends: ['Briana Decker', 'Sharron Pace'],
-      isActive: true,
-      balance: 3821,
-      skills: ['tempor', 'mollit', 'commodo', 'veniam', 'laborum'],
-      gender: 'female',
-      age: 34,
+    phone: "1-770-736-8031 x56442",
+    website: "hildegard.org",
+    company: {
+      name: "Romaguera-Crona",
+      catchPhrase: "Multi-layered client-server neural-net",
+      bs: "harness real-time e-markets"
+    }
+  },
+  {
+    id: 2,
+    name: "Ervin Howell",
+    username: "Antonette",
+    email: "Shanna@melissa.tv",
+    address: {
+      street: "Victor Plains",
+      suite: "Suite 879",
+      city: "Wisokyburgh",
+      zipcode: "90566-7771",
+      geo: {
+        lat: "-43.9509",
+        lng: "-34.4618"
+      }
     },
-    {
-      id: '88beb2f3-e4c2-49f3-a0a0-ecf957a95af3',
-      name: 'Ross Vazquez',
-      email: 'rossvazquez@xinware.com',
-      eyeColor: 'green',
-      friends: ['Marilyn Mcintosh', 'Padilla Garrison', 'Naomi Buckner'],
-      isActive: false,
-      balance: 3793,
-      skills: ['nulla', 'anim', 'proident', 'ipsum', 'elit'],
-      gender: 'male',
-      age: 24,
+    phone: "010-692-6593 x09125",
+    website: "anastasia.net",
+    company: {
+      name: "Deckow-Crist",
+      catchPhrase: "Proactive didactic contingency",
+      bs: "synergize scalable supply-chains"
+    }
+  },
+  {
+    id: 3,
+    name: "Clementine Bauch",
+    username: "Samantha",
+    email: "Nathan@yesenia.net",
+    address: {
+      street: "Douglas Extension",
+      suite: "Suite 847",
+      city: "McKenziehaven",
+      zipcode: "59590-4157",
+      geo: {
+        lat: "-68.6102",
+        lng: "-47.0653"
+      }
     },
-    {
-      id: '249b6175-5c30-44c6-b154-f120923736f5',
-      name: 'Elma Head',
-      email: 'elmahead@omatom.com',
-      eyeColor: 'green',
-      friends: ['Goldie Gentry', 'Aisha Tran'],
-      isActive: true,
-      balance: 2278,
-      skills: ['adipisicing', 'irure', 'velit'],
-      gender: 'female',
-      age: 21,
+    phone: "1-463-123-4447",
+    website: "ramiro.info",
+    company: {
+      name: "Romaguera-Jacobson",
+      catchPhrase: "Face to face bifurcated interface",
+      bs: "e-enable strategic applications"
+    }
+  },
+  {
+    id: 4,
+    name: "Patricia Lebsack",
+    username: "Karianne",
+    email: "Julianne.OConner@kory.org",
+    address: {
+      street: "Hoeger Mall",
+      suite: "Apt. 692",
+      city: "South Elvis",
+      zipcode: "53919-4257",
+      geo: {
+        lat: "29.4572",
+        lng: "-164.2990"
+      }
     },
-    {
-      id: '334f8cb3-eb04-45e6-abf4-4935dd439b70',
-      name: 'Carey Barr',
-      email: 'careybarr@nurali.com',
-      eyeColor: 'blue',
-      friends: ['Jordan Sampson', 'Eddie Strong'],
-      isActive: true,
-      balance: 3951,
-      skills: ['ex', 'culpa', 'nostrud'],
-      gender: 'male',
-      age: 27,
+    phone: "493-170-9623 x156",
+    website: "kale.biz",
+    company: {
+      name: "Robel-Corkery",
+      catchPhrase: "Multi-tiered zero tolerance productivity",
+      bs: "transition cutting-edge web services"
+    }
+  },
+  {
+    id: 5,
+    name: "Chelsey Dietrich",
+    username: "Kamren",
+    email: "Lucio_Hettinger@annie.ca",
+    address: {
+      street: "Skiles Walks",
+      suite: "Suite 351",
+      city: "Roscoeview",
+      zipcode: "33263",
+      geo: {
+        lat: "-31.8129",
+        lng: "62.5342"
+      }
     },
-    {
-      guid: '150b00fb-dd82-427d-9faf-2879ea87c695',
-      name: 'Blackburn Dotson',
-      email: 'blackburndotson@furnigeer.com',
-      eyeColor: 'brown',
-      friends: ['Jacklyn Lucas', 'Linda Chapman'],
-      isActive: false,
-      balance: 1498,
-      skills: ['non', 'amet', 'ipsum'],
-      gender: 'male',
-      age: 38,
+    phone: "(254)954-1289",
+    website: "demarco.info",
+    company: {
+      name: "Keebler LLC",
+      catchPhrase: "User-centric fault-tolerant solution",
+      bs: "revolutionize end-to-end systems"
+    }
+  },
+  {
+    id: 6,
+    name: "Mrs. Dennis Schulist",
+    username: "Leopoldo_Corkery",
+    email: "Karley_Dach@jasper.info",
+    address: {
+      street: "Norberto Crossing",
+      suite: "Apt. 950",
+      city: "South Christy",
+      zipcode: "23505-1337",
+      geo: {
+        lat: "-71.4197",
+        lng: "71.7478"
+      }
     },
-    {
-      id: 'e1bf46ab-7168-491e-925e-f01e21394812',
-      name: 'Sheree Anthony',
-      email: 'shereeanthony@kog.com',
-      eyeColor: 'brown',
-      friends: ['Goldie Gentry', 'Briana Decker'],
-      isActive: true,
-      balance: 2764,
-      skills: ['lorem', 'veniam', 'culpa'],
-      gender: 'female',
-      age: 39,
+    phone: "1-477-935-8478 x6430",
+    website: "ola.org",
+    company: {
+      name: "Considine-Lockman",
+      catchPhrase: "Synchronised bottom-line interface",
+      bs: "e-enable innovative applications"
+    }
+  },
+  {
+    id: 7,
+    name: "Kurtis Weissnat",
+    username: "Elwyn.Skiles",
+    email: "Telly.Hoeger@billy.biz",
+    address: {
+      street: "Rex Trail",
+      suite: "Suite 280",
+      city: "Howemouth",
+      zipcode: "58804-1099",
+      geo: {
+        lat: "24.8918",
+        lng: "21.8984"
+      }
     },
-  ];
+    phone: "210.067.6132",
+    website: "elvis.io",
+    company: {
+      name: "Johns Group",
+      catchPhrase: "Configurable multimedia task-force",
+      bs: "generate enterprise e-tailers"
+    }
+  },
+  {
+    id: 8,
+    name: "Nicholas Runolfsdottir V",
+    username: "Maxime_Nienow",
+    email: "Sherwood@rosamond.me",
+    address: {
+      street: "Ellsworth Summit",
+      suite: "Suite 729",
+      city: "Aliyaview",
+      zipcode: "45169",
+      geo: {
+        lat: "-14.3990",
+        lng: "-120.7677"
+      }
+    },
+    phone: "586.493.6943 x140",
+    website: "jacynthe.com",
+    company: {
+      name: "Abernathy Group",
+      catchPhrase: "Implemented secondary concept",
+      bs: "e-enable extensible e-tailers"
+    }
+  },
+  {
+    id: 9,
+    name: "Glenna Reichert",
+    username: "Delphine",
+    email: "Chaim_McDermott@dana.io",
+    address: {
+      street: "Dayna Park",
+      suite: "Suite 449",
+      city: "Bartholomebury",
+      zipcode: "76495-3109",
+      geo: {
+        lat: "24.6463",
+        lng: "-168.8889"
+      }
+    },
+    phone: "(775)976-6794 x41206",
+    website: "conrad.com",
+    company: {
+      name: "Yost and Sons",
+      catchPhrase: "Switchable contextually-based project",
+      bs: "aggregate real-time technologies"
+    }
+  },
+  {
+    id: 10,
+    name: "Clementina DuBuque",
+    username: "Moriah.Stanton",
+    email: "Rey.Padberg@karina.biz",
+    address: {
+      street: "Kattie Turnpike",
+      suite: "Suite 198",
+      city: "Lebsackbury",
+      zipcode: "31428-2261",
+      geo: {
+        lat: "-38.2386",
+        lng: "57.2232"
+      }
+    },
+    phone: "024-648-3804",
+    website: "ambrose.net",
+    company: {
+      name: "Hoeger LLC",
+      catchPhrase: "Centralized empowering task-force",
+      bs: "target end-to-end models"
+    }
+  }
+];

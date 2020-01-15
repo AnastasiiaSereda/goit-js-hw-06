@@ -1,9 +1,8 @@
 
-import users from "/users.js";
+import users from "/usersfirst.js";
 
 const getUsersWithGender = (users, gender) => {
-    users = users.filter(user => user.gender === gender);
-    return users;
+    return  users.filter(user => user.gender === gender);  
 };
 
 console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]

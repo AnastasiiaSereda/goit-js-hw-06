@@ -1,4 +1,4 @@
-import users from "/users.js";
+import users from "/usersfirst.js";
 
 const getUsersWithFriend = (users, friendName) => {
   return users
@@ -8,4 +8,6 @@ const getUsersWithFriend = (users, friendName) => {
 
 console.log(getUsersWithFriend(users, "Briana Decker")); // [ 'Sharlene Bush', 'Sheree Anthony' ]
 console.log(getUsersWithFriend(users, "Goldie Gentry")); // [ 'Elma Head', 'Sheree Anthony' ]
+
+
 

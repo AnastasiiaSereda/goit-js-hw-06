@@ -1,4 +1,4 @@
-import users from "/users.js";
+import users from "/usersfirst.js";
 
 const getInactiveUsers = users => {
     return users.filter(user =>{

@@ -1,9 +1,8 @@
 
-import users from "/users.js";
+import users from "/usersfirst.js";
 
 const getUsersWithEyeColor = (users, color) => {
-    users = users.filter(user => user.eyeColor === color);
-    return users;
+  return users.filter(user => user.eyeColor === color); 
   };
 
   
